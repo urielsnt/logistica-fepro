@@ -17,6 +17,8 @@ export default defineConfig({
       manifest: {
         name: 'Logística Cero',
         short_name: 'Logística 0',
+        description: 'Plataforma de logística para comedores sociales',
+        lang: 'es',
         theme_color: '#10b981',
         background_color: '#ffffff',
         display: 'standalone',
@@ -25,13 +27,14 @@ export default defineConfig({
           {
             src: '/pwa-192x192.png',
             sizes: '192x192',
-            type: 'image/png'
+            type: 'image/png',
+            purpose: 'any'
           },
           {
             src: '/pwa-512x512.png',
             sizes: '512x512',
             type: 'image/png',
-            purpose: 'any maskable'
+            purpose: 'maskable'
           }
         ]
       }
