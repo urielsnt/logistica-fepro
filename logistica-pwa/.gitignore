@@ -1,0 +1,29 @@
+# Dependencias (esta carpeta es muy pesada y no se debe subir)
+node_modules/
+
+# Variables de entorno (¡MUY IMPORTANTE! Aquí están tus llaves de Supabase)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build (archivos generados al compilar)
+dist/
+dist-ssr/
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor (configuraciones locales de VS Code)
+.vscode/
+.DS_Store
+
+# Archivos de herramientas IA y especificaciones
+.specify/
+specs/
+GEMINI.md
+.gemini/
